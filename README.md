@@ -5,6 +5,9 @@ license_link: https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic
 tags:
 - text-to-image
 - playground
+inference:
+  parameters:
+    guidance_scale: 3.0
 ---
 # Playground v2 – 1024px Aesthetic Model
 
