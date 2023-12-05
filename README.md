@@ -100,4 +100,4 @@ We release this benchmark to the public and encourage the community to adopt it 
 | [playground-v2-512px-base](https://huggingface.co/playgroundai/playground-v2-512px-base)     | 9.55   | 32.08      |
 
 
-Apart from playground-v2-1024px-aesthetic, we release intermediate checkpoints at different training stages to the community in order to foster foundation model research in pixels. Here, we report the FID score and CLIP score on the MSCOCO14 evaluation set for the reference purposes. (Note that our reported numbers may differ from the numbers reported in SDXL’s published results, as our prompt list may be different.)
+Apart from [playground-v2-1024px-aesthetic](https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic), we release intermediate checkpoints at different training stages to the community in order to foster foundation model research in pixels. Here, we report the FID score and CLIP score on the MSCOCO14 evaluation set for the reference purposes. (Note that our reported numbers may differ from the numbers reported in SDXL’s published results, as our prompt list may be different.)
