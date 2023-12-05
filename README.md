@@ -40,9 +40,9 @@ Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-Benchmark), for autom
 
 ### Using the model with 🧨 Diffusers
 
-Install diffusers >= 0.19.0 and some dependencies:
+Install diffusers >= 0.24.0 and some dependencies:
 ```
-pip install invisible_watermark transformers accelerate safetensors
+pip install transformers accelerate safetensors
 ```
 
 To use the model, run:
