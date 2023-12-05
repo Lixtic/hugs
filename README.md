@@ -67,6 +67,11 @@ During the user study, we give users instructions to evaluate image pairs based 
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/o3Bt62qFsTO9DkeX2yLua.png)
 
+| Model                                 | Overall FID   |
+| ------------------------------------- | ----- |
+| SDXL-1-0-refiner                      | 9.55  |
+| playground-v2-1024px-aesthetic        | **7.07**  |
+
 We introduce a new benchmark, [MJHQ-30K](https://huggingface.co/datasets/playgroundai/MJHQ30K), for automatic evaluation of a model’s aesthetic quality. The benchmark computes FID on a high-quality dataset to gauge aesthetic quality.
 
 We curate the high-quality dataset from Midjourney with 10 common categories, each category with 3K samples. Following common practice, we use aesthetic score and CLIP score to ensure high image quality and high image-text alignment. Furthermore, we take extra care to make the data diverse within each category.
@@ -77,6 +82,12 @@ We release this benchmark to the public and encourage the community to adopt it 
 
 ### Base Models for all resolution
 
-< INSERT TABLE HERE >
+| Model                        | FID    | Clip Score |
+| ---------------------------- | ------ | ---------- |
+| SDXL-1-0-refiner             | 13.04  | 32.62      |
+| [playground-v2-256px-base](https://huggingface.co/playgroundai/playground-v2-256px-base)     | 9.83   | 31.90      |
+| [playground-v2-512px-base](https://huggingface.co/playgroundai/playground-v2-512px-base)     | 9.55   | 32.08      |
+| [playground-v2-1024px-base](https://huggingface.co/playgroundai/playground-v2-1024px-base)    | 9.97   | 31.90      |
+
 
 Apart from playground-v2-1024px-aesthetic, we release all intermediate checkpoints at different training stages to the community in order to foster foundation model research in pixels. Here, we report the FID score and CLIP score on the MSCOCO14 evaluation set for the reference purposes. (Note that our reported numbers may differ from the numbers reported in SDXL’s published results, as our prompt list may be different.)
