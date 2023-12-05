@@ -60,24 +60,16 @@ This Agreement will be governed and construed under the laws of the State of Cal
 
 You agree not to use Playground v2 or any derivative works thereof:
 
-a. In any way that violates any applicable national, federal, state, local or international law or regulation;
-
-b. For the purpose of exploiting, harming or attempting to exploit or harm minors in any way;
-
-c. To generate or disseminate verifiably false information and/or content with the purpose of harming others;
-
-d. To generate or disseminate personal identifiable information that can be used to harm an individual;
-
-e. To defame, disparage or otherwise harass others;
-
-f. For fully automated decision making that adversely impacts an individual’s legal rights or otherwise creates or modifies a binding, enforceable obligation;
-
-g. For any use intended to or which has the effect of discriminating against or harming individuals or groups based on online or offline social behavior or known or predicted personal or personality characteristics;
-
-h. To exploit any of the vulnerabilities of a specific group of persons based on their age, social, physical or mental characteristics, in order to materially distort the behavior of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological harm;
-
-i. For any use intended to or which has the effect of discriminating against individuals or groups based on legally protected characteristics or categories;
-
-j. To provide medical advice and medical results interpretation;
-
-k. To generate or disseminate information for the purpose to be used for administration of justice, law enforcement, immigration or asylum processes, such as predicting an individual will commit fraud/crime commitment (e.g. by text profiling, drawing causal relationships between assertions made in documents, indiscriminate and arbitrarily-targeted use).
+<ol type="a">
+    <li>In any way that violates any applicable national, federal, state, local or international law or regulation;</li>
+    <li>For the purpose of exploiting, harming or attempting to exploit or harm minors in any way;</li>
+    <li>To generate or disseminate verifiably false information and/or content with the purpose of harming others;</li>
+    <li>To generate or disseminate personal identifiable information that can be used to harm an individual;</li>  
+    <li>To defame, disparage or otherwise harass others;</li>
+    <li>For fully automated decision making that adversely impacts an individual’s legal rights or otherwise creates or modifies a binding, enforceable obligation;</li>
+    <li>For any use intended to or which has the effect of discriminating against or harming individuals or groups based on online or offline social behavior or known or predicted personal or personality characteristics;</li>  
+    <li>To exploit any of the vulnerabilities of a specific group of persons based on their age, social, physical or mental characteristics, in order to materially distort the behavior of a person pertaining to that group in a manner that causes or is likely to cause that person or another person physical or psychological harm;</li>
+    <li>For any use intended to or which has the effect of discriminating against individuals or groups based on legally protected characteristics or categories;</li>
+    <li>To provide medical advice and medical results interpretation;</li>
+    <li>To generate or disseminate information for the purpose to be used for administration of justice, law enforcement, immigration or asylum processes, such as predicting an individual will commit fraud/crime commitment (e.g. by text profiling, drawing causal relationships between assertions made in documents, indiscriminate and arbitrarily-targeted use).</li>
+</ol>
