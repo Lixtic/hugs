@@ -77,27 +77,6 @@ We release this benchmark to the public and encourage the community to adopt it 
 
 ### Base Models for all resolution
 
-Model
-FID
-Clip Score
-*SDXL-1-0-refiner
-13.04
-32.62
-
-
-
-
-
-
-playground-v2-256px-base
-9.83
-31.90
-playground-v2-512px-base
-9.55
-32.08
-playground-v2-1024px-base
-9.97
-31.90
-
+<INSERT TABLE HERE>
 
 Apart from playground-v2-1024px-aesthetic, we release all intermediate checkpoints at different training stages to the community in order to foster foundation model research in pixels. Here, we report the FID score and CLIP score on the MSCOCO14 evaluation set for the reference purposes. (Note that our reported numbers may differ from the numbers reported in SDXL’s published results, as our prompt list may be different.)
