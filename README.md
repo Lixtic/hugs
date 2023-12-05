@@ -44,7 +44,7 @@ pipe = DiffusionPipeline.from_pretrained(
     "playgroundai/playground-v2-1024px-aesthetic",
     torch_dtype=torch.float16,
     use_safetensors=True,
-    use_watermark=False,
+    add_watermarker=False,
     variant="fp16"
 )
 pipe.to("cuda")
