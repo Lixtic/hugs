@@ -25,7 +25,7 @@ Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-Benchmark), for autom
 - **Developed by:** [Playground](https://playground.com)
 - **Model type:** Diffusion-based text-to-image generative model
 - **License:** [Playground v2 Community License](https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic/blob/main/LICENSE.md)
-- **Model Description:** This model generates images based on text prompts. It is a [Latent Diffusion Model](https://arxiv.org/abs/2112.10752) that uses two fixed, pre-trained text encoders ([OpenCLIP-ViT/G](https://github.com/mlfoundations/open_clip) and [CLIP-ViT/L](https://github.com/openai/CLIP/tree/main)). It follows the same architecture as [Stable Diffusion XL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0).
+- **Model Description:** This model generates images based on text prompts. It is a Latent Diffusion Model that uses two fixed, pre-trained text encoders ([OpenCLIP-ViT/G](https://github.com/mlfoundations/open_clip) and [CLIP-ViT/L](https://github.com/openai/CLIP/tree/main)). It follows the same architecture as [Stable Diffusion XL](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0).
 
 ### Using the model with 🧨 Diffusers
 
