@@ -10,7 +10,18 @@ tags:
 
 This repository contains a model that generates highly aesthetic images of resolution 1024x1024. You can use the model with Hugging Face 🧨 Diffusers.
 
-< Insert teaser images here >
+<table>
+  <tr>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/GBZVS0a4QcRY4eVBCExFK.jpeg" /></td>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/iqGvvAdz2TqV0G3p9zOXZ.png" /></td>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/2_BMfgFVXUoU-0ocsOz0M.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/-a4tx6c9EMc88fmchW0nG.png" /></td>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/LKCjxb9NoqfRtcviaEILI.png" /></td>
+    <td><img src="https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/cRSItLGH42V2kz9pM6huZ.png" /></td>
+  </tr>
+</table>
 
 **Playground v2** is a diffusion-based text-to-image generative model. The model was trained from scratch by the research team at [Playground](https://playground.com). 
 
