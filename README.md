@@ -77,6 +77,6 @@ We release this benchmark to the public and encourage the community to adopt it 
 
 ### Base Models for all resolution
 
-<INSERT TABLE HERE>
+< INSERT TABLE HERE >
 
 Apart from playground-v2-1024px-aesthetic, we release all intermediate checkpoints at different training stages to the community in order to foster foundation model research in pixels. Here, we report the FID score and CLIP score on the MSCOCO14 evaluation set for the reference purposes. (Note that our reported numbers may differ from the numbers reported in SDXL’s published results, as our prompt list may be different.)
