@@ -38,7 +38,9 @@ Install diffusers >= 0.24.0 and some dependencies:
 pip install transformers accelerate safetensors
 ```
 
-To use the model, run:
+To use the model, run the following snippet.
+
+**Note**: It is recommend to use **`guidance_scale=3.0`**.
 
 ```python
 from diffusers import DiffusionPipeline
@@ -54,7 +56,7 @@ pipe = DiffusionPipeline.from_pretrained(
 pipe.to("cuda")
 
 prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
-image  = pipe(prompt=prompt).images[0]
+image  = pipe(prompt=prompt, guidance_scale=3.0).images[0]
 ```
 
 ### User Study
