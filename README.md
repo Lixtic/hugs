@@ -29,7 +29,7 @@ Playground v2’s images are favored 2.5 times more than those produced by Stabl
 
 We are thrilled to release all intermediate checkpoints at different training stages, including evaluation metrics, to the community. We hope this will foster more foundation model research in pixels.
 
-Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-Benchmark), for automatic evaluation of a model’s aesthetic quality.
+Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-benchmark), for automatic evaluation of a model’s aesthetic quality.
 
 ### Model Description
 
