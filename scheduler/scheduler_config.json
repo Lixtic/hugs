@@ -1,6 +1,6 @@
 {
-  "_class_name": "EulerDiscreteScheduler",
-  "_diffusers_version": "0.24.0",
+  "_class_name": "EulerAncestralDiscreteScheduler",
+  "_diffusers_version": "0.25.0.dev0",
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",
   "beta_start": 0.00085,
