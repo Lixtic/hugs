@@ -27,7 +27,7 @@ This repository contains a model that generates highly aesthetic images of resol
 
 Playground v2’s images are favored **2.5** times more than those produced by Stable Diffusion XL, according to Playground’s [user study](#user-study).
 
-We are thrilled to release all intermediate checkpoints at different training stages, including evaluation metrics, to the community. We hope this will foster more foundation model research in pixels.
+We are thrilled to release [intermediate checkpoints](#intermediate-base-models) at different training stages, including evaluation metrics, to the community. We hope this will foster more foundation model research in pixels.
 
 Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-benchmark), for automatic evaluation of a model’s aesthetic quality.
 
@@ -91,7 +91,7 @@ For Playground v2, we report both the overall FID and per-category FID. All FID 
 
 We release this benchmark to the public and encourage the community to adopt it for benchmarking their models’ aesthetic quality.
 
-### Base Models for all resolution
+### Intermediate Base Models
 
 | Model                        | FID    | Clip Score |
 | ---------------------------- | ------ | ---------- |
