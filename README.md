@@ -70,13 +70,13 @@ During the user study, we give users instructions to evaluate image pairs based 
 | Model                                 | Overall FID   |
 | ------------------------------------- | ----- |
 | SDXL-1-0-refiner                      | 9.55  |
-| playground-v2-1024px-aesthetic        | **7.07**  |
+| [playground-v2-1024px-aesthetic](https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic)        | **7.07**  |
 
 We introduce a new benchmark, [MJHQ-30K](https://huggingface.co/datasets/playgroundai/MJHQ30K), for automatic evaluation of a model’s aesthetic quality. The benchmark computes FID on a high-quality dataset to gauge aesthetic quality.
 
 We curate the high-quality dataset from Midjourney with 10 common categories, each category with 3K samples. Following common practice, we use aesthetic score and CLIP score to ensure high image quality and high image-text alignment. Furthermore, we take extra care to make the data diverse within each category.
 
-For Playground v2, we report both the overall FID and per-category FID. (All FID metrics are computed at resolution 256x256.)
+For Playground v2, we report both the overall FID and per-category FID. (All FID metrics are computed at resolution 1024x1024.)
 
 We release this benchmark to the public and encourage the community to adopt it for benchmarking their models’ aesthetic quality.
 
