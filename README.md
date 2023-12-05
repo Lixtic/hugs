@@ -87,7 +87,7 @@ We introduce a new benchmark, [MJHQ-30K](https://huggingface.co/datasets/playgro
 
 We curate the high-quality dataset from Midjourney with 10 common categories, each category with 3K samples. Following common practice, we use aesthetic score and CLIP score to ensure high image quality and high image-text alignment. Furthermore, we take extra care to make the data diverse within each category.
 
-For Playground v2, we report both the overall FID and per-category FID. (All FID metrics are computed at resolution 1024x1024.) From the results, our model outperforms SDXL-1-0-refiner in overall FID and all the categories FID, especially in people and fashion categories. This is inline with the results of the user study, which indicates the correlation between human preferences and the FID score of the MJHQ30K benchmark.
+For Playground v2, we report both the overall FID and per-category FID. All FID metrics are computed at resolution 1024x1024. Our benchmark results show that our model outperforms SDXL-1-0-refiner in overall FID and all category FIDs, especially in people and fashion categories. This is in line with the results of the user study, which indicates a correlation between human preference and FID score on the MJHQ30K benchmark.
 
 We release this benchmark to the public and encourage the community to adopt it for benchmarking their models’ aesthetic quality.
 
