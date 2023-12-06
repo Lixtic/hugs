@@ -24,6 +24,8 @@ We are thrilled to release [intermediate checkpoints](#intermediate-base-models)
 
 Lastly, we introduce a new benchmark, [MJHQ-30K](#mjhq-30k-benchmark), for automatic evaluation of a model’s aesthetic quality.
 
+Please see our [blog](https://blog.playgroundai.com/playground-v2/) for more details.
+
 ### Model Description
 
 - **Developed by:** [Playground](https://playground.com)
