@@ -59,6 +59,10 @@ prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
 image  = pipe(prompt=prompt, guidance_scale=3.0).images[0]
 ```
 
+### Using the model with Automatic1111/ComfyUI
+
+In order to use the model with software such as Automatic1111 or ComfyUI you can use [`playground-v2.safetensors`](https://huggingface.co/playgroundai/playground-v2-1024px-aesthetic/raw/main/playgroundv2.safetensors) file.
+
 ### User Study
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/63855d851769b7c4b10e1f76/8VzBkSYaUU3dt509Co9sk.png)
